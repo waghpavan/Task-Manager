@@ -9,7 +9,7 @@ const Home = () => {
             <p>
                 < h1>Organize your < br /> work and life, finally.</h1 >
                 Become focused, organized, and calm with todo app. The World's #1 task manager app.<br/><br/>
-                <a href="/todo" className="make-btn">Create new Task <BsArrowRight /></a>
+                <a href="/#/todo" className="make-btn">Create new Task <BsArrowRight /></a>
             </p>
             </div>
         </div>
