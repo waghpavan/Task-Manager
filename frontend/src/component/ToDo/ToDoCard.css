@@ -1,0 +1,36 @@
+.card {
+    padding: 10px;
+    background-color: #fdf1f1;
+}
+.card-centent{
+    color :rgb(77, 29, 29);
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.card-title {
+    cursor: pointer;
+}
+
+.user-btn {
+    cursor: pointer;
+    color : rgb(109, 36, 23)
+}
+
+
+.user-btn:hover {
+    cursor: pointer;
+    color : rgb(0, 0, 0)
+}
+
+
+@media screen and (max-width: 600px) {
+    .card {
+        margin: 0px;
+        
+    }
+}
+    
+

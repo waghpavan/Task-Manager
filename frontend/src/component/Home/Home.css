@@ -1,0 +1,25 @@
+.home{
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 160px;
+}
+.home h1{
+    font-size: 60px;
+}
+.make-btn {
+    border: none;
+    outline: none;
+    background-color: rgba(240, 0, 0,87);
+    border-radius: 7px;
+    color: white !important;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+p{
+    font-size: 20px;
+}
+
+

@@ -1,0 +1,31 @@
+.logo{
+    color: red;
+}
+.logo:hover {
+    color : black;
+}
+
+.btn-nav{
+    background: #6ba3ff;
+    margin: 5px 10px;
+    padding: 2px;
+    border-radius: 6px;
+    border: 2px solid rgb(38, 35, 238);
+}
+.btn-nav:hover{
+    background: #2066d5;
+}
+.logout{
+    border: 2px solid rgb(173, 48, 17);
+    background: #ff6b6b;
+}
+.logout:hover{
+    background: #fe1f1f;
+}
+
+@media screen and (max-width: 500px) {
+   .home-li{
+        margin-top: 4px;        
+    }
+}
+

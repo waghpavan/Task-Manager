@@ -1,0 +1,72 @@
+#textarea-body,#priority {
+    display: none;
+}
+.todo{
+    width : 100%;       
+}
+.todo-inputs-div {
+    width: 60%;
+    border-radius: 10px;
+    background: rgb(247, 247, 247);
+    box-shadow: 2px 2px 5px 5px rgb(203, 203, 203);
+}
+input,textarea,select {
+    width : 90%;
+    padding: 10px;
+    margin: 10px auto;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+}
+
+
+.button-addTask {
+    margin: 10px 50px;
+    width: 30%;
+    color: white;
+    background: red;
+    padding: 6px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+.button-addTask:hover {
+    background: #fc2e2e;
+}
+/* #e9effa */
+.card-container{
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+.high{
+    border:3px solid rgb(255, 98, 98);
+}
+
+.medium{
+    border:3px solid rgb(255, 224, 47);
+}
+
+.low{
+    border:3px solid rgb(46, 255, 31);
+}
+
+@media screen and (max-width: 600px) {
+    .todo-inputs-div {
+        width: 90%;
+        margin: 0px;
+    }
+    .todo{
+    }
+    .todo-main{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .card-cover {
+        margin: 0px;
+    }
+    .card-container{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,23 @@
+.about{
+    margin: 100px 0px;
+    padding: 0px 50px;
+    text-align: justify;
+    overflow-x: hidden;
+}
+.about-head{
+    background: #fafafa;
+    text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration-color: red;
+    text-decoration-thickness: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .about{
+        width: 95%;
+        padding: 0px;
+        margin: 50px auto;
+    }
+}
