@@ -5,7 +5,9 @@
     background: #f8f8f8;
     padding: 10px;
 }
-
+p{
+    margin: 10px auto;
+}
 .form-group {
     padding: 1px 10px;
 }

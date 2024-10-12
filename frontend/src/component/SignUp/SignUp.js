@@ -39,8 +39,7 @@ function SignUp() {
         }
         try {
             await axios.post(`${window.location.origin}/api/v1/register`,Inputs).then((response)=> {
-                console.log(response);
-                if(response.data.message == "Already Exists!!!") {
+                if(response.data.message === "Already Exists!!!") {
                     toast.error(Inputs.username +" "+ response.data.message)
                     navigator("/SignIn")
                 }
@@ -83,6 +82,8 @@ function SignUp() {
                 
                 <button type="submit" class="button-signUp">Sign Up</button>
             </form>
+            <br/>
+            <p>I Already have Account <a href='/#/SignIn'>SignIn</a> </p>
         </div>
     )
 }
