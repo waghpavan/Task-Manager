@@ -9,7 +9,7 @@ function footer() {
   return (
     <div>
       <div style={myStyles} className='container-fluid d-flex justify-content-center '>
-        <h4 style={{color:"red"}}>ToDo</h4><p className='m-0'>&copy;THECODEBYPAVAN</p>
+        <h4 style={{color:"red"}}>ToDo</h4><p className='m-0'>&copy;THECODEBY<strong>TY-C3</strong></p>
       </div>
     </div>
   )
